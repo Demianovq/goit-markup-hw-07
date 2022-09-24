@@ -3,6 +3,9 @@
 	--second-color: #757575;
 	--light-color: #ffffff;
 	--accent-color: #2196f3;
+	--dark-color: #000000;
+	--bg-sect-color: #f5f4fa;
+	--bordercard-color: #eeeeee;
 }
 
 body {
@@ -66,7 +69,7 @@ img {
 }
 
 .header-logo__text {
-	color: #000000;
+	color: var(--dark-color);
 }
 
 .nav-list {
@@ -219,7 +222,7 @@ img {
 
 .hero__btn:hover,
 .hero__btn:focus {
-	background-color: #188ce8;
+	background-color: var(--accent-color);
 }
 
 /* Модальное окно */
@@ -278,7 +281,7 @@ img {
 
 .btn-close__icon {
 	display: block;
-	fill: #000;
+	fill: var(--dark-color);
 	transition-property: fill;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -401,7 +404,7 @@ img {
 	width: 200px;
 	padding-top: 18px;
 	padding-bottom: 18px;
-	background: #2196f3;
+	background: var(--accent-color);
 	color: var(--light-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
@@ -458,7 +461,7 @@ img {
 .decor-container {
 	width: 270px;
 	height: 120px;
-	background-color: #f5f4fa;
+	background-color: var(--bg-sect-color);
 	margin-bottom: 30px;
 }
 
@@ -519,7 +522,7 @@ img {
 }
 
 .team-list__item {
-	background: #ffffff;
+	background: var(--light-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
@@ -544,7 +547,7 @@ img {
 }
 
 .team-section {
-	background-color: #f5f4fa;
+	background-color: var(--bg-sect-color);
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -577,7 +580,7 @@ img {
 
 .social-link:hover,
 .social-link:focus {
-	background-color: #2196f3;
+	background-color: var(--accent-color);
 	color: var(--light-color);
 }
 
@@ -615,8 +618,8 @@ img {
 
 .company-link:hover,
 .company-link:focus {
-	border: 1px solid #2196f3;
-	color: #2196f3;
+	border: 1px solid var(--accent-color);
+	color: var(--accent-color);
 }
 
 .address-list {
@@ -709,7 +712,7 @@ address {
 
 .social-list__link:hover,
 .social-list__link:focus {
-	background-color: #2196f3;
+	background-color: var(--accent-color);
 	border-radius: 50%;
 }
 
@@ -792,7 +795,7 @@ address {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--main-color);
-	background-color: #f5f4fa;
+	background-color: var(--bg-sect-color);
 	cursor: pointer;
 	border: none;
 	border-radius: 4px;
@@ -836,9 +839,9 @@ address {
 
 .projects-block {
 	padding: 20px 24px;
-	border-bottom: 1px solid #eeeeee;
-	border-left: 1px solid #eeeeee;
-	border-right: 1px solid #eeeeee;
+	border-bottom: 1px solid var(--bordercard-color);
+	border-left: 1px solid var(--bordercard-color);
+	border-right: 1px solid var(--bordercard-color);
 }
 
 .projects-list__item:nth-child(3n) {
