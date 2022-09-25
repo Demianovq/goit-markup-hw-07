@@ -41,9 +41,6 @@ address {
 	margin-top: 20px;
 }
 
-.info-block {
-}
-
 .company-block {
 	margin-left: 70px;
 }
@@ -80,16 +77,15 @@ address {
 	transition-property: background-color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+		border-radius: 50%;
+	}
 }
 
 .social-list__icon {
 	fill: var(--light-color);
-}
-
-.social-list__link:hover,
-.social-list__link:focus {
-	background-color: var(--accent-color);
-	border-radius: 50%;
 }
 
 .subscribe-block {

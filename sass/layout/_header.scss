@@ -105,11 +105,10 @@
 .contacts-list__icon {
 	fill: currentColor;
 	margin-right: 10px;
-}
-
-.contacts-list__icon:hover,
-.contacts-list__icon:focus {
-	fill: var(--accent-color);
+	&:hover,
+	&:focus {
+		fill: var(--accent-color);
+	}
 }
 
 // Линия в портфолио

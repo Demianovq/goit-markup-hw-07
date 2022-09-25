@@ -22,14 +22,13 @@
 	transition-property: color, border;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover,
+	&:focus {
+		border: 1px solid var(--accent-color);
+		color: var(--accent-color);
+	}
 }
 
 .company-link__icon {
 	fill: currentColor;
-}
-
-.company-link:hover,
-.company-link:focus {
-	border: 1px solid var(--accent-color);
-	color: var(--accent-color);
 }

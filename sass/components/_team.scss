@@ -56,14 +56,13 @@
 	transition-property: color, background-color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+		color: var(--light-color);
+	}
 }
 
 .social-link__icon {
 	fill: currentColor;
-}
-
-.social-link:hover,
-.social-link:focus {
-	background-color: var(--accent-color);
-	color: var(--light-color);
 }
